@@ -4,8 +4,7 @@ Title: Calculates bias scores from standardised local-global bias data
 Version: 0.1.0
 Author: Felix Schweigkofler
 Maintainer: Felix Schweigkofler <felixschweigkofler@gmail.com>
-Description: A package to work in a standardised way with data from local-global bias experiments.
-    Exclude trials or participants based on different parameters.
+Description: Work in a standardised way with data from local-global bias experiments.
     Calculate summary statistics from trial-level data.
     Calculate scores from summary-level data.
     Correlate scores with each other.
@@ -13,5 +12,5 @@ Description: A package to work in a standardised way with data from local-global
 License: MIT
 Encoding: UTF-8
 LazyData: true
-Imports: dplyr
+Imports: dplyr, tidyr, purrr
 RoxygenNote: 7.3.1
